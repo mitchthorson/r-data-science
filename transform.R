@@ -47,3 +47,6 @@ flights %>%
   group_by(year, month, day) %>%
   summarise(delay=mean(dep_delay, na.rm = TRUE)) %>%
   arrange(desc(delay))
+
+
+
